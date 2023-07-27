@@ -31,8 +31,8 @@ namespace DataStructuresAlgorithm
                         sort.Isort();
                         break;
                     case 5:
-                        //BubbleSort bubble = new BubbleSort();
-                        //bubble.Bubble();
+                        BubbleSort bubble = new BubbleSort();
+                        bubble.Bubble();
                         break;
                 }
             }
