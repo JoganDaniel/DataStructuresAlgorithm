@@ -10,7 +10,7 @@ namespace DataStructuresAlgorithm
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Exit");
+                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Anagram\n3.Replace String\n4.");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -19,8 +19,14 @@ namespace DataStructuresAlgorithm
                         search.ReadTextFileAndSearch(searchFilePath);
                         break;
                     case 2:
-                        flag = false;
+                        Anagram anagram = new Anagram();
+                        anagram.checkAnagram();
                         break;
+                    case 3:
+                        //ReplaceString replace = new ReplaceString();
+                        //replace.StringReplace();
+                        break;
+                        
                 }
             }
         }
