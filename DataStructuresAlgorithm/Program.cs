@@ -23,8 +23,8 @@ namespace DataStructuresAlgorithm
                         anagram.checkAnagram();
                         break;
                     case 3:
-                        //ReplaceString replace = new ReplaceString();
-                        //replace.StringReplace();
+                        ReplaceString replace = new ReplaceString();
+                        replace.StringReplace();
                         break;
                         
                 }
