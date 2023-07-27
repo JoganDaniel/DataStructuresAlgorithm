@@ -10,7 +10,7 @@ namespace DataStructuresAlgorithm
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Anagram\n3.Replace String\n4.");
+                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Anagram\n3.Replace String\n4.Insertion sort\n5.Bubble Sort");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -26,7 +26,14 @@ namespace DataStructuresAlgorithm
                         ReplaceString replace = new ReplaceString();
                         replace.StringReplace();
                         break;
-                        
+                    case 4:
+                        InsertionSort sort = new InsertionSort();
+                        sort.Isort();
+                        break;
+                    case 5:
+                        //BubbleSort bubble = new BubbleSort();
+                        //bubble.Bubble();
+                        break;
                 }
             }
         }
