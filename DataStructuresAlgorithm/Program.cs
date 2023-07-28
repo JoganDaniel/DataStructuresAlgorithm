@@ -38,6 +38,12 @@ namespace DataStructuresAlgorithm
                         PrimeNumber number = new PrimeNumber();
                         number.Prime1000();
                         break;
+                    case 7:
+                        PrimeAndPalindrome primeAndPalindrome = new PrimeAndPalindrome();
+                        primeAndPalindrome.CheckPrimeAndPalin();
+                        break;
+                    
+
                 }
             }
         }
