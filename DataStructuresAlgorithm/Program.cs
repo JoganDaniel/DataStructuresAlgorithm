@@ -10,7 +10,7 @@ namespace DataStructuresAlgorithm
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Anagram\n3.Replace String\n4.Insertion sort\n5.Bubble Sort");
+                Console.WriteLine("Enter choice \n1.BinarySearch \n2.Anagram\n3.Replace String\n4.Insertion sort\n5.Bubble Sort\n6.Prime 0-1000\n7.Prime and palindrome\n8.Merge Sort");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -33,6 +33,10 @@ namespace DataStructuresAlgorithm
                     case 5:
                         BubbleSort bubble = new BubbleSort();
                         bubble.Bubble();
+                        break;
+                    case 6:
+                        PrimeNumber number = new PrimeNumber();
+                        number.Prime1000();
                         break;
                 }
             }

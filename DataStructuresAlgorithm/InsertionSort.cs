@@ -14,7 +14,7 @@ namespace DataStructuresAlgorithm
             int l =Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the strings");
             string[] arr = new string[l];
-            for(int i=0;i<l;i++ )
+            for(int i=0;i<l;i++)
             {
                 arr[i] = Console.ReadLine();
             }
