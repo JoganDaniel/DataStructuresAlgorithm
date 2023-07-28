@@ -42,8 +42,10 @@ namespace DataStructuresAlgorithm
                         PrimeAndPalindrome primeAndPalindrome = new PrimeAndPalindrome();
                         primeAndPalindrome.CheckPrimeAndPalin();
                         break;
-                    
-
+                    case 8:
+                        MergeSortAlgorithm merge = new MergeSortAlgorithm();
+                        merge.MergeArray();
+                        break;
                 }
             }
         }
